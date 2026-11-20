@@ -5446,6 +5446,7 @@ textarea.field-value-input {
 
   function renderRecordRow(cat, type, record, latest) {
     const due = record.nextDate ? dueInfo(record.nextDate) : null;
+    const showCompleteAction = latest && type !== 'deworm';
     const product = record.product || record.kind;
     const meta = [];
     if (record.kind) meta.push(record.kind);
@@ -5469,7 +5470,7 @@ textarea.field-value-input {
           ${due ? `<span class="rec-next ${due.tone}">下次 ${fmtDot(record.nextDate)} · ${due.label}</span>` : ''}
         </div>
         <div class="rec-actions">
-          ${latest ? `<button type="button" class="icon-btn check" data-action="complete-record" data-cat="${esc(cat.id)}" data-type="${type}" data-record="${esc(record.id)}" title="完成并生成下次记录" aria-label="完成并生成下次记录">${icon('check', 14)}</button>` : ''}
+          ${showCompleteAction ? `<button type="button" class="icon-btn check" data-action="complete-record" data-cat="${esc(cat.id)}" data-type="${type}" data-record="${esc(record.id)}" title="完成并生成下次记录" aria-label="完成并生成下次记录">${icon('check', 14)}</button>` : ''}
           <button type="button" class="icon-btn" data-action="edit-record" data-cat="${esc(cat.id)}" data-type="${type}" data-record="${esc(record.id)}" title="编辑记录" aria-label="编辑记录">${icon('edit', 13)}</button>
         </div>
       </div>
