@@ -1,7 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
-data.json
 data.json.bak
 
 # 部署产物 / 运行日志（本机环境相关，不入库）

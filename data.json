@@ -1,0 +1,302 @@
+{
+  "version": 1,
+  "cats": [
+    {
+      "id": "cat_mw33t90k_wa9y4",
+      "name": "猜猜",
+      "avatar": "pixel-3",
+      "fields": [
+        {
+          "id": "field_mw33rkku_jtnvl",
+          "key": "breed",
+          "label": "品种",
+          "value": "中华田园猫",
+          "type": "text",
+          "placeholder": "例如：布偶猫"
+        },
+        {
+          "id": "field_mw33rkku_i98ge",
+          "key": "sex",
+          "label": "性别",
+          "value": "公",
+          "type": "sex",
+          "placeholder": ""
+        },
+        {
+          "id": "field_mw33rkku_trkbm",
+          "key": "birthday",
+          "label": "生日",
+          "value": "2025-10-10",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "id": "field_mw33rkku_t8r3h",
+          "key": "arrival",
+          "label": "到家日",
+          "value": "2026-10-10",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "id": "field_mw33rkku_oxeyb",
+          "key": "weight",
+          "label": "体重",
+          "value": "5kg",
+          "type": "text",
+          "placeholder": "例如：4.8 kg"
+        },
+        {
+          "id": "field_mw33rkku_mkslg",
+          "key": "color",
+          "label": "毛色",
+          "value": "橘色",
+          "type": "text",
+          "placeholder": "例如：海豹双色"
+        },
+        {
+          "id": "field_mw33rkku_iukjn",
+          "key": "source",
+          "label": "来源",
+          "value": "收养",
+          "type": "text",
+          "placeholder": "领养 / 猫舍 / 救助"
+        },
+        {
+          "id": "field_mw33rkku_8gitu",
+          "key": "vet",
+          "label": "常去医院",
+          "value": "宠郦",
+          "type": "text",
+          "placeholder": "医院名称"
+        },
+        {
+          "id": "field_mw33rkku_ttr3d",
+          "key": "notes",
+          "label": "备注",
+          "value": "话痨小猫，很黏人",
+          "type": "longtext",
+          "placeholder": "性格、习惯、过敏…"
+        },
+        {
+          "id": "field_mw33t604_d0us1",
+          "key": "custom_key_mw33t604_tj5la",
+          "label": "保险",
+          "value": "支付宝30档",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "dewormings": [
+        {
+          "id": "rec_mw33uxge_8xuke",
+          "kind": "体内",
+          "date": "2026-10-14",
+          "product": "海乐妙 米尔贝肟吡喹酮片",
+          "dose": "1",
+          "batch": "",
+          "hospital": "家",
+          "cost": "",
+          "intervalMonths": 3,
+          "nextDate": "2027-01-14",
+          "notes": "首次驱虫",
+          "createdAt": 1793856525278
+        },
+        {
+          "id": "rec_mw33vufq_c79x7",
+          "kind": "体外",
+          "date": "2026-10-17",
+          "product": "大宠爱 塞拉菌素溶液",
+          "dose": "1",
+          "batch": "",
+          "hospital": "家",
+          "cost": "",
+          "intervalMonths": 3,
+          "nextDate": "2027-01-18",
+          "notes": "首次外驱",
+          "createdAt": 1793856568022
+        }
+      ],
+      "vaccines": [],
+      "events": [
+        {
+          "id": "event_mw3nn2yj_0mkvo",
+          "date": "2026-11-02",
+          "title": "肠胃炎",
+          "text": "10.30-11.1日肠胃炎吐了几次，吃了几天速诺，猫粮加益生菌，已经完全好了",
+          "createdAt": 1793889751483
+        },
+        {
+          "id": "event_mw3nkpmj_sa1lg",
+          "date": "2026-10-24",
+          "title": "基础体检",
+          "text": "一切正常，猜猜是个健康的小猫咪",
+          "createdAt": 1793889640891
+        },
+        {
+          "id": "event_mw3njoyf_skcfc",
+          "date": "2026-10-10",
+          "title": "领养",
+          "text": "带猜猜回家了，非常顺利，直接跟我走到屋里了",
+          "createdAt": 1793889593367
+        }
+      ],
+      "neuter": {
+        "status": "未绝育",
+        "date": "",
+        "hospital": "宠郦",
+        "cost": "",
+        "precheck": false,
+        "notes": ""
+      },
+      "createdAt": 1793856446948
+    },
+    {
+      "id": "cat_mw33ytzx_0vroc",
+      "name": "小灰灰",
+      "avatar": "pixel-2",
+      "fields": [
+        {
+          "id": "field_mw33x6lw_s6pmo",
+          "key": "breed",
+          "label": "品种",
+          "value": "英短折耳",
+          "type": "text",
+          "placeholder": "例如：布偶猫"
+        },
+        {
+          "id": "field_mw33x6lw_wlhq4",
+          "key": "sex",
+          "label": "性别",
+          "value": "公",
+          "type": "sex",
+          "placeholder": ""
+        },
+        {
+          "id": "field_mw33x6lw_d7v68",
+          "key": "birthday",
+          "label": "生日",
+          "value": "2024-06-01",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "id": "field_mw33x6lw_omln9",
+          "key": "arrival",
+          "label": "到家日",
+          "value": "2024-09-01",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "id": "field_mw33x6lw_54d3i",
+          "key": "weight",
+          "label": "体重",
+          "value": "4kg",
+          "type": "text",
+          "placeholder": "例如：4.8 kg"
+        },
+        {
+          "id": "field_mw33x6lw_yud3s",
+          "key": "color",
+          "label": "毛色",
+          "value": "灰色",
+          "type": "text",
+          "placeholder": "例如：海豹双色"
+        },
+        {
+          "id": "field_mw33x6lw_rampf",
+          "key": "source",
+          "label": "来源",
+          "value": "送养",
+          "type": "text",
+          "placeholder": "领养 / 猫舍 / 救助"
+        },
+        {
+          "id": "field_mw33x6lw_ziugk",
+          "key": "vet",
+          "label": "常去医院",
+          "value": "贝安诺",
+          "type": "text",
+          "placeholder": "医院名称"
+        },
+        {
+          "id": "field_mw33x6lw_qzrse",
+          "key": "notes",
+          "label": "备注",
+          "value": "喜欢用小眼神撇人",
+          "type": "longtext",
+          "placeholder": "性格、习惯、过敏…"
+        }
+      ],
+      "dewormings": [],
+      "vaccines": [
+        {
+          "id": "rec_mw340m2e_o4182",
+          "kind": "猫三联",
+          "date": "2026-11-05",
+          "product": "妙三多第一针",
+          "dose": "",
+          "batch": "",
+          "hospital": "家",
+          "cost": "",
+          "intervalMonths": 0,
+          "nextDate": "",
+          "notes": "",
+          "createdAt": 1793856790454
+        },
+        {
+          "id": "rec_mw340yph_kz0qt",
+          "kind": "猫三联",
+          "date": "2026-11-05",
+          "product": "妙三多第二针",
+          "dose": "",
+          "batch": "",
+          "hospital": "家",
+          "cost": "",
+          "intervalMonths": 0,
+          "nextDate": "",
+          "notes": "",
+          "createdAt": 1793856806837
+        },
+        {
+          "id": "rec_mw341c5s_01vo7",
+          "kind": "狂犬",
+          "date": "2026-11-05",
+          "product": "",
+          "dose": "",
+          "batch": "",
+          "hospital": "家",
+          "cost": "",
+          "intervalMonths": 0,
+          "nextDate": "",
+          "notes": "",
+          "createdAt": 1793856824272
+        }
+      ],
+      "events": [],
+      "neuter": {
+        "status": "已绝育",
+        "date": "2026-06-26",
+        "hospital": "贝安诺",
+        "cost": "",
+        "precheck": true,
+        "notes": ""
+      },
+      "createdAt": 1793856707422
+    }
+  ],
+  "settings": {
+    "accent": "#2b3050",
+    "background": {
+      "preset": "collage",
+      "image": "",
+      "veil": 0.6
+    },
+    "panel": {
+      "color": "#fff2d5",
+      "alpha": 0.8
+    }
+  },
+  "updatedAt": 1795161036021
+}
